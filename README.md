@@ -8,7 +8,7 @@ A CountryBalls bot inspired by Ballsdex but better
 
 [ ] Economy
 
-[x] 1v1 Battle against bots
+ [x] 1v1 Battle against bots
 
 [ ] Battle system
 
