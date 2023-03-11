@@ -1,3 +1,3 @@
 # Zenon
 
-Wait man
+A CountryBalls bot inspired by Ballsdex but better
