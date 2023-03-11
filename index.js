@@ -3,12 +3,17 @@ const fs = require('node:fs');
 const path = require('node:path');
 const config = require('./config.js')
 const wait = require('node:timers/promises').setTimeout;
+const { QuickDB } = require('quick.db');
 
+(global.db) = new QuickDB({filePath: `./data/data.sqlite`});
 const client = (global.client = new Client({
 	intents: 32767,
 	allowedMentions: { parse: ['users'] },
 	partials: ['CHANNEL'],
 }));
+
+global.messageCounter = new Map();
+
 client.commands = new Collection();
 
 const eventsPath = path.join(__dirname, 'events');

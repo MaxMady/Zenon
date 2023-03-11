@@ -2,3 +2,5 @@
 /assets
 /node_modules
 /config.js
+/data/data.sqlite
+/data/images
