@@ -12,3 +12,7 @@ Zenon is a Discord bot, built using JavaScript and the Discord.js library, with 
 - [ ] Multiplayer battles (Remote battles using lobby system)
 
 *More adding once these are done...*
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
