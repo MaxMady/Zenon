@@ -1,6 +1,6 @@
 # Zenon
 
-A CountryBalls bot inspired by Ballsdex but better
+Zenon is a Discord bot, built using JavaScript and the Discord.js library, with which you can battle your Balls with other users as a team or solo or against the bots. This project is inspired by BallsDex
 
 ## Checklist
 
