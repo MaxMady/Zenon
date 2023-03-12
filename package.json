@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@psibean/discord.js-pagination": "^4.0.5",
     "better-sqlite3": "^8.2.0",
     "canvas": "^2.11.0",
+    "discord-pagination-advanced": "^1.1.8",
     "discord.js": "^14.7.1",
     "express": "^4.18.2",
     "quick.db": "^9.0.8"

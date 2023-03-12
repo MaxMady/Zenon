@@ -6,8 +6,9 @@ const wait = require('node:timers/promises').setTimeout;
 const { QuickDB } = require('quick.db');
 
 (global.db) = new QuickDB({filePath: `./data/data.sqlite`});
+(global.balls) = new QuickDB({filePath: `./data/balls.sqlite`});
 const client = (global.client = new Client({
-	intents: 32767,
+	intents: 40827,
 	allowedMentions: { parse: ['users'] },
 	partials: ['CHANNEL'],
 }));
