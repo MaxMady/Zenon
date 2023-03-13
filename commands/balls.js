@@ -9,14 +9,16 @@ module.exports = {
 		let user = await db.get(`user-${interaction.user.id}`);
 		let list = user.balls;
 		let embeds = [],
-			i = 0;
+			ei = 0;
 		for (let j = 0; j < Math.ceil(list.length / 20); j++) {
 			let str = ``;
-			for (i; i < 19; i++) {
-				const ball = await balls.get(`balls-`+list[i])
+			for (let i = 0; i < 19; i++) {
+				const ball = await balls.get(`balls-`+list[ei])
 				if(!ball) continue;
 				let time = Math.floor(ball.caughtOn/1000)
 				str+= `\`${ball.id}\`　•　**${ball.shiny?`:sparkles: `:``}${ball.class}**　•　**Lv.**${ball.level}　•　<t:${time}:R>\n`
+				ei++
+				console.log(str)
 			}
 			let embed = new EmbedBuilder()
 				.setTitle(`Your Balls collection`)

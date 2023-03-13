@@ -1,4 +1,5 @@
-const { AttachmentBuilder, EmbedBuilder } = require("discord.js");
+const { AttachmentBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, TextInputStyle } = require("discord.js");
+
 const { data } = require("../data/country");
 
 async function spawn(message) {
@@ -41,7 +42,14 @@ async function spawn(message) {
     .setColor(`Purple`)
     .setImage(`attachment://balls.png`)
     .setFooter({ text: `Type 'z!catch <ball>' to catch the ball!` });
-  message.channel.send({ embeds: [exampleEmbed], files: [image] });
+		const row = new ActionRowBuilder()
+			.addComponents(
+				new ButtonBuilder()
+					.setCustomId('catchBall')
+					.setLabel('Catch')
+					.setStyle(ButtonStyle.Primary),
+			);
+  message.channel.send({ embeds: [exampleEmbed], files: [image], components: [row] });
 }
 
 

@@ -6,6 +6,7 @@ const { caughtBall } = require('../utils/caughtBall.js')
 module.exports = {
   name: Events.MessageCreate,
   async execute(message) {
+    if(message.author.bot) return
     let id = message.guild.id;
     let c = messageCounter.get(id);
     if (!c) {
@@ -26,7 +27,7 @@ module.exports = {
       c.time = null;
     }
     await messageCounter.set(`${id}`, c);
-    console.log(message.embeds[0].fields)
+    console.log(c)
     if(!message.content.startsWith(prefix)) return;
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
@@ -38,6 +39,8 @@ module.exports = {
       }
       if(country.toLowerCase() == spawn.class.toLowerCase()) {
         caughtBall(spawn, message)
+      } else {
+        message.reply(`Wrong country name! Try again...`)
       }
     }
 
