@@ -1,9 +1,8 @@
-const {  Events,  AttachmentBuilder,  EmbedBuilder,  ActionRowBuilder,  ModalBuilder,  TextInputBuilder,  TextInputStyle} = require("discord.js");
+const {  Events,  ActionRowBuilder,  ModalBuilder,  TextInputBuilder,  TextInputStyle} = require("discord.js");
 const { caughtBall } = require('../utils/caughtBall')
 
 module.exports = {
   name: Events.InteractionCreate,
-  once: true,
   async execute(interaction) {
     if (interaction.customId === `catchBall`) {
       const modal = new ModalBuilder().setCustomId("catchM").setTitle("Zenon");
@@ -31,7 +30,7 @@ module.exports = {
             });
           }
           if (country.toLowerCase() == spawn.class.toLowerCase()) {
-            caughtBall(spawn, ec);
+            caughtBall(spawn, ec, 0);
           } else {
             await ec.reply({content: `Wrong country name! Try again...`, ephemeral: true});
           }

@@ -1,6 +1,7 @@
 const { AttachmentBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, TextInputStyle } = require("discord.js");
-
+const cntry = require('../data/final.json')
 const { data } = require("../data/country");
+const { calculateStats } = require("./calculateStats");
 
 async function spawn(message) {
   const i = Math.floor(Math.random() * data.length);
@@ -9,6 +10,8 @@ async function spawn(message) {
   let image = new AttachmentBuilder(`./data/images/${a}.png`, {
     name: `balls.png`,
   });
+let stats;
+stats = cntry.find((obj) => obj.Country === country);
 
   let arrayOfBalls = await balls.get(`balls-list`)
   if(!arrayOfBalls) arrayOfBalls = [`a`]
@@ -18,6 +21,7 @@ async function spawn(message) {
   let ball = {
     class: country,
     id: id,
+    index: 0,
     isCaught: false,
     guildId: message.guild.id,
     caughtOn: null,
@@ -27,7 +31,9 @@ async function spawn(message) {
     },
     rarity: 0,
     level: level,
-    shiny: shiny
+    shiny: shiny,
+    stats: calculateStats(),
+    xp:0
   };
 
   arrayOfBalls.push(id);
@@ -66,5 +72,7 @@ function generateId(array) {
   
   return id;
 }
+
+
 
 module.exports = { spawn };

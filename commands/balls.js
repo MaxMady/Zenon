@@ -7,18 +7,34 @@ module.exports = {
 		.setDescription("Displays all your Country Balls"),
 	async execute(interaction) {
 		let user = await db.get(`user-${interaction.user.id}`);
+		if(!user) user = {
+            balance: {
+              coins: 0,
+              shards: 0,
+            },
+            balls: [],
+            countries: [],
+            stats: {
+              catches: 0,
+            },
+          };
 		let list = user.balls;
+		let len = list.length
 		let embeds = [],
-			ei = 0;
+			ei = len;
 		for (let j = 0; j < Math.ceil(list.length / 20); j++) {
 			let str = ``;
 			for (let i = 0; i < 19; i++) {
-				const ball = await balls.get(`balls-`+list[ei])
+				const ball = await balls.get(`balls-`+list[ei-1])
 				if(!ball) continue;
+				console.log(ball)
 				let time = Math.floor(ball.caughtOn/1000)
-				str+= `\`${ball.id}\`　•　**${ball.shiny?`:sparkles: `:``}${ball.class}**　•　**Lv.**${ball.level}　•　<t:${time}:R>\n`
-				ei++
-				console.log(str)
+				let index = ball.index || user.balls.indexOf(ball.id)
+				index = `${len-(ei-1)}`.padStart(2, ` `)
+				let iv = ball?.stats?.avgIv||`~`
+				if(isNaN(iv)) iv = `~`
+				str+= `\`${(index)}\`. \`${ball.id}\`　•　**${ball.shiny?`:sparkles: `:``}${ball.class}**　•　Lv.${ball.level}　•　${iv}%　•　<t:${time}:R>\n`
+				ei--
 			}
 			let embed = new EmbedBuilder()
 				.setTitle(`Your Balls collection`)

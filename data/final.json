@@ -1,0 +1,835 @@
+[
+    {
+        "Country": "Afghanistan",
+        "atk": "70",
+        "def": "50",
+        "spd": "59",
+        "hp": "561"
+    },
+    {
+        "Country": "Albania",
+        "atk": "42",
+        "def": "31",
+        "spd": "72",
+        "hp": "572"
+    },
+    {
+        "Country": "Armenia",
+        "atk": "34",
+        "def": "36",
+        "spd": "78",
+        "hp": "746"
+    },
+    {
+        "Country": "Angola",
+        "atk": "72",
+        "def": "37",
+        "spd": "69",
+        "hp": "865"
+    },
+    {
+        "Country": "Argentina",
+        "atk": "22",
+        "def": "58",
+        "spd": "47",
+        "hp": "644"
+    },
+    {
+        "Country": "Austria",
+        "atk": "75",
+        "def": "48",
+        "spd": "66",
+        "hp": "798"
+    },
+    {
+        "Country": "Australia",
+        "atk": "57",
+        "def": "57",
+        "spd": "79",
+        "hp": "727"
+    },
+    {
+        "Country": "Azerbaijan",
+        "atk": "27",
+        "def": "33",
+        "spd": "73",
+        "hp": "707"
+    },
+    {
+        "Country": "Bangladesh",
+        "atk": "43",
+        "def": "55",
+        "spd": "59",
+        "hp": "797"
+    },
+    {
+        "Country": "Belgium",
+        "atk": "45",
+        "def": "53",
+        "spd": "64",
+        "hp": "606"
+    },
+    {
+        "Country": "Bulgaria",
+        "atk": "41",
+        "def": "65",
+        "spd": "56",
+        "hp": "951"
+    },
+    {
+        "Country": "Bahrain",
+        "atk": "69",
+        "def": "76",
+        "spd": "65",
+        "hp": "670"
+    },
+    {
+        "Country": "Brazil",
+        "atk": "47",
+        "def": "80",
+        "spd": "53",
+        "hp": "739"
+    },
+    {
+        "Country": "Bhutan",
+        "atk": "20",
+        "def": "61",
+        "spd": "68",
+        "hp": "527"
+    },
+    {
+        "Country": "Botswana",
+        "atk": "49",
+        "def": "47",
+        "spd": "75",
+        "hp": "716"
+    },
+    {
+        "Country": "Belarus",
+        "atk": "63",
+        "def": "44",
+        "spd": "79",
+        "hp": "716"
+    },
+    {
+        "Country": "Canada",
+        "atk": "29",
+        "def": "45",
+        "spd": "50",
+        "hp": "776"
+    },
+    {
+        "Country": "Congo",
+        "atk": "15",
+        "def": "58",
+        "spd": "50",
+        "hp": "674"
+    },
+    {
+        "Country": "Switzerland",
+        "atk": "32",
+        "def": "69",
+        "spd": "73",
+        "hp": "950"
+    },
+    {
+        "Country": "Chile",
+        "atk": "24",
+        "def": "54",
+        "spd": "46",
+        "hp": "893"
+    },
+    {
+        "Country": "Cameroon",
+        "atk": "70",
+        "def": "72",
+        "spd": "51",
+        "hp": "477"
+    },
+    {
+        "Country": "China",
+        "atk": "29",
+        "def": "77",
+        "spd": "65",
+        "hp": "611"
+    },
+    {
+        "Country": "Colombia",
+        "atk": "76",
+        "def": "49",
+        "spd": "79",
+        "hp": "688"
+    },
+    {
+        "Country": "Cuba",
+        "atk": "37",
+        "def": "34",
+        "spd": "63",
+        "hp": "556"
+    },
+    {
+        "Country": "Czechia",
+        "atk": "59",
+        "def": "71",
+        "spd": "69",
+        "hp": "760"
+    },
+    {
+        "Country": "Germany",
+        "atk": "23",
+        "def": "56",
+        "spd": "73",
+        "hp": "859"
+    },
+    {
+        "Country": "Djibouti",
+        "atk": "18",
+        "def": "79",
+        "spd": "56",
+        "hp": "913"
+    },
+    {
+        "Country": "Denmark",
+        "atk": "58",
+        "def": "44",
+        "spd": "49",
+        "hp": "947"
+    },
+    {
+        "Country": "Dominican Republic",
+        "atk": "64",
+        "def": "55",
+        "spd": "54",
+        "hp": "836"
+    },
+    {
+        "Country": "Algeria",
+        "atk": "40",
+        "def": "74",
+        "spd": "80",
+        "hp": "816"
+    },
+    {
+        "Country": "Ecuador",
+        "atk": "39",
+        "def": "30",
+        "spd": "50",
+        "hp": "824"
+    },
+    {
+        "Country": "Egypt",
+        "atk": "37",
+        "def": "35",
+        "spd": "61",
+        "hp": "980"
+    },
+    {
+        "Country": "Eritrea",
+        "atk": "55",
+        "def": "61",
+        "spd": "76",
+        "hp": "703"
+    },
+    {
+        "Country": "Spain",
+        "atk": "60",
+        "def": "64",
+        "spd": "67",
+        "hp": "820"
+    },
+    {
+        "Country": "Ethiopia",
+        "atk": "47",
+        "def": "77",
+        "spd": "58",
+        "hp": "928"
+    },
+    {
+        "Country": "Finland",
+        "atk": "59",
+        "def": "76",
+        "spd": "65",
+        "hp": "475"
+    },
+    {
+        "Country": "France",
+        "atk": "20",
+        "def": "62",
+        "spd": "79",
+        "hp": "601"
+    },
+    {
+        "Country": "Gabon",
+        "atk": "80",
+        "def": "56",
+        "spd": "66",
+        "hp": "1037"
+    },
+    {
+        "Country": "Georgia",
+        "atk": "40",
+        "def": "75",
+        "spd": "45",
+        "hp": "562"
+    },
+    {
+        "Country": "Ghana",
+        "atk": "28",
+        "def": "52",
+        "spd": "59",
+        "hp": "563"
+    },
+    {
+        "Country": "Greece",
+        "atk": "48",
+        "def": "35",
+        "spd": "80",
+        "hp": "727"
+    },
+    {
+        "Country": "Guatemala",
+        "atk": "67",
+        "def": "52",
+        "spd": "74",
+        "hp": "607"
+    },
+    {
+        "Country": "Honduras",
+        "atk": "28",
+        "def": "30",
+        "spd": "45",
+        "hp": "599"
+    },
+    {
+        "Country": "Croatia",
+        "atk": "18",
+        "def": "38",
+        "spd": "45",
+        "hp": "907"
+    },
+    {
+        "Country": "Haiti",
+        "atk": "24",
+        "def": "38",
+        "spd": "61",
+        "hp": "551"
+    },
+    {
+        "Country": "Hungary",
+        "atk": "56",
+        "def": "52",
+        "spd": "78",
+        "hp": "552"
+    },
+    {
+        "Country": "Indonesia",
+        "atk": "56",
+        "def": "35",
+        "spd": "45",
+        "hp": "771"
+    },
+    {
+        "Country": "Ireland",
+        "atk": "58",
+        "def": "69",
+        "spd": "66",
+        "hp": "1013"
+    },
+    {
+        "Country": "Israel",
+        "atk": "17",
+        "def": "76",
+        "spd": "48",
+        "hp": "793"
+    },
+    {
+        "Country": "India",
+        "atk": "41",
+        "def": "67",
+        "spd": "58",
+        "hp": "776"
+    },
+    {
+        "Country": "Iraq",
+        "atk": "27",
+        "def": "71",
+        "spd": "63",
+        "hp": "651"
+    },
+    {
+        "Country": "Iceland",
+        "atk": "48",
+        "def": "34",
+        "spd": "53",
+        "hp": "481"
+    },
+    {
+        "Country": "Italy",
+        "atk": "51",
+        "def": "67",
+        "spd": "71",
+        "hp": "574"
+    },
+    {
+        "Country": "Jordan",
+        "atk": "76",
+        "def": "61",
+        "spd": "57",
+        "hp": "599"
+    },
+    {
+        "Country": "Japan",
+        "atk": "60",
+        "def": "73",
+        "spd": "66",
+        "hp": "718"
+    },
+    {
+        "Country": "Kenya",
+        "atk": "19",
+        "def": "43",
+        "spd": "79",
+        "hp": "899"
+    },
+    {
+        "Country": "Kyrgyzstan",
+        "atk": "65",
+        "def": "41",
+        "spd": "65",
+        "hp": "520"
+    },
+    {
+        "Country": "Cambodia",
+        "atk": "72",
+        "def": "63",
+        "spd": "74",
+        "hp": "592"
+    },
+    {
+        "Country": "Kuwait",
+        "atk": "49",
+        "def": "40",
+        "spd": "76",
+        "hp": "817"
+    },
+    {
+        "Country": "Kazakhstan",
+        "atk": "32",
+        "def": "54",
+        "spd": "45",
+        "hp": "544"
+    },
+    {
+        "Country": "Lebanon",
+        "atk": "75",
+        "def": "62",
+        "spd": "65",
+        "hp": "845"
+    },
+    {
+        "Country": "Sri Lanka",
+        "atk": "59",
+        "def": "59",
+        "spd": "55",
+        "hp": "482"
+    },
+    {
+        "Country": "Liberia",
+        "atk": "55",
+        "def": "80",
+        "spd": "70",
+        "hp": "1005"
+    },
+    {
+        "Country": "Luxembourg",
+        "atk": "76",
+        "def": "32",
+        "spd": "60",
+        "hp": "813"
+    },
+    {
+        "Country": "Latvia",
+        "atk": "31",
+        "def": "59",
+        "spd": "59",
+        "hp": "695"
+    },
+    {
+        "Country": "Libya",
+        "atk": "43",
+        "def": "67",
+        "spd": "80",
+        "hp": "820"
+    },
+    {
+        "Country": "Morocco",
+        "atk": "50",
+        "def": "50",
+        "spd": "51",
+        "hp": "630"
+    },
+    {
+        "Country": "Montenegro",
+        "atk": "46",
+        "def": "59",
+        "spd": "70",
+        "hp": "822"
+    },
+    {
+        "Country": "Madagascar",
+        "atk": "21",
+        "def": "34",
+        "spd": "80",
+        "hp": "485"
+    },
+    {
+        "Country": "Mali",
+        "atk": "31",
+        "def": "66",
+        "spd": "64",
+        "hp": "810"
+    },
+    {
+        "Country": "Myanmar",
+        "atk": "50",
+        "def": "62",
+        "spd": "78",
+        "hp": "972"
+    },
+    {
+        "Country": "Mongolia",
+        "atk": "35",
+        "def": "39",
+        "spd": "46",
+        "hp": "871"
+    },
+    {
+        "Country": "Mauritania",
+        "atk": "58",
+        "def": "68",
+        "spd": "65",
+        "hp": "465"
+    },
+    {
+        "Country": "Mexico",
+        "atk": "35",
+        "def": "36",
+        "spd": "79",
+        "hp": "793"
+    },
+    {
+        "Country": "Malaysia",
+        "atk": "30",
+        "def": "74",
+        "spd": "51",
+        "hp": "538"
+    },
+    {
+        "Country": "Mozambique",
+        "atk": "29",
+        "def": "38",
+        "spd": "61",
+        "hp": "793"
+    },
+    {
+        "Country": "Namibia",
+        "atk": "73",
+        "def": "61",
+        "spd": "65",
+        "hp": "725"
+    },
+    {
+        "Country": "Niger",
+        "atk": "23",
+        "def": "50",
+        "spd": "60",
+        "hp": "1040"
+    },
+    {
+        "Country": "Nigeria",
+        "atk": "45",
+        "def": "44",
+        "spd": "74",
+        "hp": "1008"
+    },
+    {
+        "Country": "Nicaragua",
+        "atk": "47",
+        "def": "60",
+        "spd": "79",
+        "hp": "706"
+    },
+    {
+        "Country": "Netherlands",
+        "atk": "34",
+        "def": "56",
+        "spd": "79",
+        "hp": "958"
+    },
+    {
+        "Country": "Norway",
+        "atk": "51",
+        "def": "79",
+        "spd": "70",
+        "hp": "977"
+    },
+    {
+        "Country": "Nepal",
+        "atk": "45",
+        "def": "77",
+        "spd": "55",
+        "hp": "938"
+    },
+    {
+        "Country": "New Zealand",
+        "atk": "36",
+        "def": "55",
+        "spd": "76",
+        "hp": "647"
+    },
+    {
+        "Country": "Oman",
+        "atk": "58",
+        "def": "48",
+        "spd": "52",
+        "hp": "840"
+    },
+    {
+        "Country": "Panama",
+        "atk": "72",
+        "def": "39",
+        "spd": "48",
+        "hp": "536"
+    },
+    {
+        "Country": "Peru",
+        "atk": "26",
+        "def": "71",
+        "spd": "69",
+        "hp": "468"
+    },
+    {
+        "Country": "Philippines",
+        "atk": "31",
+        "def": "32",
+        "spd": "56",
+        "hp": "1042"
+    },
+    {
+        "Country": "Pakistan",
+        "atk": "53",
+        "def": "36",
+        "spd": "53",
+        "hp": "1028"
+    },
+    {
+        "Country": "Poland",
+        "atk": "53",
+        "def": "69",
+        "spd": "52",
+        "hp": "736"
+    },
+    {
+        "Country": "Portugal",
+        "atk": "64",
+        "def": "61",
+        "spd": "51",
+        "hp": "606"
+    },
+    {
+        "Country": "Paraguay",
+        "atk": "65",
+        "def": "60",
+        "spd": "72",
+        "hp": "1032"
+    },
+    {
+        "Country": "Qatar",
+        "atk": "75",
+        "def": "72",
+        "spd": "64",
+        "hp": "470"
+    },
+    {
+        "Country": "Romania",
+        "atk": "78",
+        "def": "54",
+        "spd": "73",
+        "hp": "485"
+    },
+    {
+        "Country": "Serbia",
+        "atk": "61",
+        "def": "55",
+        "spd": "78",
+        "hp": "596"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "atk": "15",
+        "def": "55",
+        "spd": "49",
+        "hp": "497"
+    },
+    {
+        "Country": "Sudan",
+        "atk": "50",
+        "def": "51",
+        "spd": "78",
+        "hp": "636"
+    },
+    {
+        "Country": "Sweden",
+        "atk": "19",
+        "def": "75",
+        "spd": "46",
+        "hp": "1021"
+    },
+    {
+        "Country": "Singapore",
+        "atk": "78",
+        "def": "73",
+        "spd": "50",
+        "hp": "661"
+    },
+    {
+        "Country": "Slovenia",
+        "atk": "62",
+        "def": "74",
+        "spd": "72",
+        "hp": "496"
+    },
+    {
+        "Country": "Slovakia",
+        "atk": "35",
+        "def": "75",
+        "spd": "54",
+        "hp": "630"
+    },
+    {
+        "Country": "Senegal",
+        "atk": "16",
+        "def": "78",
+        "spd": "57",
+        "hp": "828"
+    },
+    {
+        "Country": "Somalia",
+        "atk": "57",
+        "def": "50",
+        "spd": "49",
+        "hp": "564"
+    },
+    {
+        "Country": "Suriname",
+        "atk": "31",
+        "def": "33",
+        "spd": "52",
+        "hp": "524"
+    },
+    {
+        "Country": "South Sudan",
+        "atk": "53",
+        "def": "71",
+        "spd": "55",
+        "hp": "658"
+    },
+    {
+        "Country": "Chad",
+        "atk": "44",
+        "def": "67",
+        "spd": "77",
+        "hp": "568"
+    },
+    {
+        "Country": "Thailand",
+        "atk": "37",
+        "def": "78",
+        "spd": "53",
+        "hp": "648"
+    },
+    {
+        "Country": "Tajikistan",
+        "atk": "66",
+        "def": "63",
+        "spd": "76",
+        "hp": "626"
+    },
+    {
+        "Country": "Turkmenistan",
+        "atk": "18",
+        "def": "45",
+        "spd": "72",
+        "hp": "503"
+    },
+    {
+        "Country": "Tunisia",
+        "atk": "53",
+        "def": "70",
+        "spd": "46",
+        "hp": "962"
+    },
+    {
+        "Country": "Ukraine",
+        "atk": "69",
+        "def": "37",
+        "spd": "57",
+        "hp": "471"
+    },
+    {
+        "Country": "Uganda",
+        "atk": "35",
+        "def": "54",
+        "spd": "66",
+        "hp": "509"
+    },
+    {
+        "Country": "Uruguay",
+        "atk": "36",
+        "def": "55",
+        "spd": "45",
+        "hp": "605"
+    },
+    {
+        "Country": "Uzbekistan",
+        "atk": "62",
+        "def": "52",
+        "spd": "52",
+        "hp": "493"
+    },
+    {
+        "Country": "Yemen",
+        "atk": "25",
+        "def": "73",
+        "spd": "66",
+        "hp": "997"
+    },
+    {
+        "Country": "South Africa",
+        "atk": "29",
+        "def": "45",
+        "spd": "47",
+        "hp": "1037"
+    },
+    {
+        "Country": "Zambia",
+        "atk": "77",
+        "def": "55",
+        "spd": "75",
+        "hp": "708"
+    },
+    {
+        "Country": "Zimbabwe",
+        "atk": "25",
+        "def": "70",
+        "spd": "73",
+        "hp": "947"
+    },
+    {
+        "Country": "",
+        "atk": "31",
+        "def": "72",
+        "spd": "76",
+        "hp": "630"
+    }
+]
